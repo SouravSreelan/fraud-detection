@@ -4,13 +4,13 @@ Detecting fraudulent credit card transactions using **XGBoost** on an imbalanced
 
 ---
 
-## 📌 Problem
+## Problem Statement
 Credit card fraud is rare but costly. In a dataset of **284,807 transactions**, only **492 (0.17%)** are fraudulent.  
 👉 The challenge: train a model that **doesn’t just predict all transactions as “legit”** but can catch fraud effectively.
 
 ---
 
-## 📂 Dataset
+## Dataset
 - **Rows:** 284,807  
 - **Features:** 30 anonymized features + `Class` (target)  
 - **Target distribution:**
@@ -33,7 +33,7 @@ Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/ml
 
 ---
 
-## 📊 Results
+## Results
 
 ### Confusion Matrix
 |                  | Predicted Legit (0) | Predicted Fraud (1) |
@@ -92,4 +92,5 @@ pip install -r requirements.txt
 ```bash
 python fraud_detection.py
 ```
+
 
