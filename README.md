@@ -84,13 +84,14 @@ Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/ml
 git clone https://github.com/yourusername/fraud-detection.git
 cd fraud-detection
 ```
-###2. Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-###3.Run the model
+### 3.Run the model
 ```bash
 python fraud_detection.py
 ```
+
 
 
