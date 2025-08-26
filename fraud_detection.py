@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_auc_sco
 from xgboost import XGBClassifier
 from imblearn.over_sampling import SMOTE
 
-print("Loading dataset...")
+print("Loading dataset...") 
 df = pd.read_csv("data/creditcard.csv")
 
 print("Dataset shape:", df.shape)
@@ -23,8 +23,7 @@ X["scaled_amount"] = scaler.fit_transform(X["Amount"].values.reshape(-1, 1))
 X["scaled_time"] = scaler.fit_transform(X["Time"].values.reshape(-1, 1))
 X = X.drop(["Amount", "Time"], axis=1)
 
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42, stratify=y)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
 print("Train shape:", X_train.shape, "Test shape:", X_test.shape)
 
