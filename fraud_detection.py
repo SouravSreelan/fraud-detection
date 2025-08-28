@@ -40,7 +40,6 @@ y_prob = model.predict_proba(X_test)[:, 1]
 
 print("\nConfusion Matrix:")
 print(confusion_matrix(y_test, y_pred))
-
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 
@@ -56,3 +55,4 @@ plt.ylabel("True Positive Rate")
 plt.title("ROC Curve - Fraud Detection")
 plt.legend()
 plt.show()
+
