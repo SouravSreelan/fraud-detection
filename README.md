@@ -12,7 +12,7 @@ Credit card fraud is rare but costly. In a dataset of **284,807 transactions**, 
 
 ## Dataset
 - **Rows:** 284,807  
-- **Features:** 30 anonymized features + `Class` (target)  
+- **Features:** 30 anonymized features + `Class` (target)   
 - **Target distribution:**
   - Legitimate: 284,315  
   - Fraudulent: 492  
@@ -38,7 +38,7 @@ Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/ml
 ### Confusion Matrix
 |                  | Predicted Legit (0) | Predicted Fraud (1) |
 |------------------|----------------------|---------------------|
-| **Actual Legit (0)** | 56832 ✅            | 32 ❌                |
+| **Actual Legit (0)** | 56832 ✅            | 32 ❌                | 
 | **Actual Fraud (1)** | 11 ❌               | 87 ✅                |
 
 ---
@@ -81,8 +81,10 @@ Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/ml
 
 ### 1. Clone repository
 ```bash
+
 git clone https://github.com/SouravSreelan/fraud-detection.git
 cd fraud-detection
+
 ```
 ### 2. Install dependencies
 ```bash
@@ -92,6 +94,7 @@ pip install -r requirements.txt
 ```bash
 python fraud_detection.py
 ```
+
 
 
 
