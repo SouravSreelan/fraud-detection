@@ -64,7 +64,7 @@ Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/ml
 ## 🏆 Key Insights
 - **High Recall (0.89):** Model catches 89% of frauds.  
 - **Good Precision (0.73):** Some false alarms, but safer than missing fraud.  
-- **Impact:** Reduces fraud risk while minimizing customer disruption.  
+- **Impact:** Reduces the fraud risk while minimizing customer disruption.  
 
 ---
 
