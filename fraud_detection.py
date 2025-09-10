@@ -12,7 +12,6 @@ print("Loading dataset...")
 df = pd.read_csv("data/creditcard.csv")
 print("Dataset shape:", df.shape)
 print(df["Class"].value_counts())
-
 X = df.drop("Class", axis=1)
 y = df["Class"]
 
@@ -53,6 +52,7 @@ plt.ylabel("True Positive Rate")
 plt.title("ROC Curve - Fraud Detection")
 plt.legend()
 plt.show()
+
 
 
 
