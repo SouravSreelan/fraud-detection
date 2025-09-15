@@ -21,7 +21,6 @@ X["scaled_time"] = scaler.fit_transform(X["Time"].values.reshape(-1, 1))
 X = X.drop(["Amount", "Time"], axis=1)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
-
 print("Train shape:", X_train.shape, "Test shape:", X_test.shape)
 
 sm = SMOTE(random_state=42)
@@ -52,6 +51,7 @@ plt.ylabel("True Positive Rate")
 plt.title("ROC Curve - Fraud Detection")
 plt.legend()
 plt.show()
+
 
 
 
