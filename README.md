@@ -14,10 +14,10 @@ Credit card fraud is rare but costly. In a dataset of **284,807 transactions**, 
 - **Rows:** 284,807  
 - **Features:** 30 anonymized features + `Class` (target)   
 - **Target distribution:**
-  - Legitimate: 284,315  
+  - Legitimate: 284,315   
   - Fraudulent: 492  
 
-Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud) 
 
 ---
 
@@ -57,7 +57,7 @@ Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/ml
 ---
 
 ### ROC Curve
-![ROC Curve](./Figure_1.png)
+![ROC Curve](./Figure_1.png) 
 
 ---
 
@@ -94,6 +94,7 @@ pip install -r requirements.txt
 ```bash
 python fraud_detection.py
 ```
+
 
 
 
