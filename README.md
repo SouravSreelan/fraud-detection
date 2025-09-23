@@ -21,7 +21,7 @@ Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/ml
 
 ---
 
-## ⚙️ Approach
+## ⚙️ Approach  
 1. **Data Preprocessing**  
    - Train-test split (80/20) with stratification.  
 
@@ -61,7 +61,7 @@ Dataset source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/ml
 
 ---
 
-## 🏆 Key Insights
+## 🏆 Key Insights  
 - **High Recall (0.89):** Model catches 89% of frauds.  
 - **Good Precision (0.73):** Some false alarms, but safer than missing fraud.  
 - **Impact:** Reduces the fraud risk while minimizing customer disruption.  
@@ -94,6 +94,7 @@ pip install -r requirements.txt
 ```bash
 python fraud_detection.py
 ```
+
 
 
 
