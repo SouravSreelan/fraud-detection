@@ -92,8 +92,9 @@ pip install -r requirements.txt
 ```
 ### 3.Run the model
 ```bash
-python fraud_detection.py
+python fraud_detection.py 
 ```
+
 
 
 
