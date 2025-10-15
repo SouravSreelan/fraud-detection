@@ -25,7 +25,6 @@ print("Train shape:", X_train.shape, "Test shape:", X_test.shape)
 
 sm = SMOTE(random_state=42)
 X_res, y_res = sm.fit_resample(X_train, y_train)
-
 print("After SMOTE:", y_res.value_counts())
 
 model = XGBClassifier(use_label_encoder=False, eval_metric="logloss", random_state=42)
@@ -51,6 +50,7 @@ plt.ylabel("True Positive Rate")
 plt.title("ROC Curve - Fraud Detection")
 plt.legend()
 plt.show()
+
 
 
 
