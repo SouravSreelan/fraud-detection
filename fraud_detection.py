@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_auc_sco
 from xgboost import XGBClassifier
 from imblearn.over_sampling import SMOTE
 
-print("Loading dataset....") 
+print("Loading dataset.....") 
 df = pd.read_csv("data/creditcard.csv")
 print("Dataset shape:", df.shape)
 print(df["Class"].value_counts())
@@ -50,6 +50,7 @@ plt.ylabel("True Positive Rate")
 plt.title("ROC Curve - Fraud Detection")
 plt.legend()
 plt.show()
+
 
 
 
